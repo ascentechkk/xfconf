@@ -68,7 +68,7 @@
 #define CONFIG_DIR_STEM  "xfce4/xfconf/" XFCONF_BACKEND_PERCHANNEL_XML_TYPE_ID "/"
 #define CONFIG_FILE_FMT  CONFIG_DIR_STEM "%s.xml"
 #define CACHE_TIMEOUT    (20*60*1000)  /* 20 minutes */
-#define WRITE_TIMEOUT    (5)  /* 5 seconds */
+#define WRITE_TIMEOUT    (1)  /* 1 seconds */
 #define MAX_PROP_PATH    (4096)
 
 struct _XfconfBackendPerchannelXml
